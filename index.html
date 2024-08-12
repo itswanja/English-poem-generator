@@ -4,46 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Poem Generator</title>
+    <title>AI English Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI English Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI English Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the English poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Submit" />
-      </form>
-      <div>
-        As virtuous men pass mildly away,
-        <br />
-        And whisper to their souls, to go,
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/itswanja/" target="_blank"
-        >Charity Wanja Mwaura</a
-      >
-      and is
-      <a
-        href="https://github.com/itswanja/English-poem-generator"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and is hosted
-      <a href="https://ai-english-poems-generator.netlify.app/" target="_blank">
-        on Netlify</a
-      >
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the English poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          As virtuous men pass mildly away,
+          <br />
+          And whisper to their souls, to go,
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/itswanja/" target="_blank"
+          >Charity Wanja Mwaura</a
+        >
+        and is
+        <a
+          href="https://github.com/itswanja/English-poem-generator"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and is hosted
+        <a
+          href="https://ai-english-poems-generator.netlify.app/"
+          target="_blank"
+        >
+          on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
